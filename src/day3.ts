@@ -10,7 +10,7 @@ function parseLine(line: string) {
 }
 
 const rawLines = fs
-    .readFileSync('day3input.txt', { encoding: 'utf-8'})
+    .readFileSync('input/day3input.txt', { encoding: 'utf-8'})
     .split('\n')
 
 const lines = rawLines

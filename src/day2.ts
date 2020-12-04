@@ -37,7 +37,7 @@ function checkLineNew({ password, letter, low, high }: Line): boolean {
 }
 
 const lines = fs
-    .readFileSync('day2input.txt', { encoding: 'utf-8'})
+    .readFileSync('input/day2input.txt', { encoding: 'utf-8'})
     .split('\n')
     .map(l => parseLine(l))
 

@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const input = fs
-    .readFileSync('day1input.txt', { encoding: 'utf-8'})
+    .readFileSync('input/day1input.txt', { encoding: 'utf-8'})
     .split('\n')
     .map(s => Number.parseInt(s))
     .sort()
