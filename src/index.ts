@@ -4,4 +4,5 @@ import './day2'
 import './day3'
 import './day4'
 import './day5'
+import './day6'
 console.log('Finish')
